@@ -1,0 +1,8 @@
+{
+  "name": "mailbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ovaphlow/mailbox.git",
+  "author": "ovaphlow <ovaphlow@live.com>",
+  "license": "MIT"
+}
