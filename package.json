@@ -4,5 +4,19 @@
   "main": "index.js",
   "repository": "https://github.com/ovaphlow/mailbox.git",
   "author": "ovaphlow <ovaphlow@live.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "format": "prettier --write .",
+    "lint": "eslint ."
+  }
 }
